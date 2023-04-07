@@ -1,0 +1,10 @@
+<launch>
+  <node name="laser_noise_removal" pkg="laser_noise_removal" type="laser_noise_removal_node">
+    <!-- <remap from="scan" to="/scan" />
+    <remap from="scan_filtered" to="/scan_filtered" />
+    <param name="range_min" type="double" value="0.05" />
+    <param name="range_max" type="double" value="10.0" />
+    <param name="scan_topic" type="string" value="/scan" />
+    <param name="scan_filtered_topic" type="string" value="/scan_filtered" /> -->
+  </node>
+</launch>
